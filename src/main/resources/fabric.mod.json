@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "visualmod",
+  "version": "1.0.0",
+  "name": "VisualMod",
+  "description": "Client visual mod",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.visual.VisualMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
